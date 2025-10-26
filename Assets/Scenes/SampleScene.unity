@@ -642,6 +642,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1828604501629524463, guid: 754860d294d71cf4ebe01479f68909f1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e66122ea0d9f347448a2c566e0b1d850, type: 2}
     - target: {fileID: 5150499445002482588, guid: 754860d294d71cf4ebe01479f68909f1, type: 3}
       propertyPath: m_Name
       value: Player System
@@ -710,6 +714,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 597246352345048441, guid: 754860d294d71cf4ebe01479f68909f1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7097913941270862482}
+    - targetCorrespondingSourceObject: {fileID: 597246352345048441, guid: 754860d294d71cf4ebe01479f68909f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7097913941270862483}
   m_SourcePrefab: {fileID: 100100000, guid: 754860d294d71cf4ebe01479f68909f1, type: 3}
 --- !u!1 &4989873338131229011 stripped
 GameObject:
@@ -793,6 +800,18 @@ CapsuleCollider:
   m_Height: 2.063071
   m_Direction: 1
   m_Center: {x: 0, y: 0.9205526, z: 0}
+--- !u!114 &7097913941270862483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989873338131229011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b730f63ab539043b6c37c3f658cc28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationController
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
